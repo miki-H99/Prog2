@@ -35,7 +35,7 @@ def approximate_pi(n): # Ex1
             nsy.append(i[1]) 
         
 
-    print(len(ncx))
+    # print(len(ncx))
     pi_aprx = 4*(len(ncx)/n)
     print(f"Approximated π: {pi_aprx}")
     plt.figure()
