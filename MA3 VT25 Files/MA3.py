@@ -133,9 +133,9 @@ def sphere_volume_parallel2(n,d,np=10):
     
 def main():
     #Ex1
-    # dots = [1000, 10000, 100000]
-    # for n in dots:
-    #     approximate_pi(n)
+     dots = [1000, 10000, 100000]
+     for n in dots:
+         approximate_pi(n)
     # #Ex2
     # n = 100000
     # d = 2
@@ -168,18 +168,18 @@ def main():
     # print(f"The parell time is: {end1 - start1}")
     # print(f"the average sphere value : {average} ")
     #Ex4
-    n = 1000000
+    # n = 1000000
     
-    d = 11
-    start = pc()
-    sphere_volume(n,d)
-    stop = pc()
-    print(f"Ex4: Sequential time of {d} and {n}: {stop-start}")
-    print("What is parallel time?")
-    starting = pc()
-    sphere_volume_parallel2(n,d)
-    ending  = pc()
-    print(f"Ex4: Parallel time of {d} and {n}: {ending-starting}")
+    #d = 11
+    #start = pc()
+    #sphere_volume(n,d)
+    #stop = pc()
+    #print(f"Ex4: Sequential time of {d} and {n}: {stop-start}")
+    #print("What is parallel time?")
+    #starting = pc()
+    #sphere_volume_parallel2(n,d)
+    #ending  = pc()
+    #print(f"Ex4: Parallel time of {d} and {n}: {ending-starting}")
 
     
     
